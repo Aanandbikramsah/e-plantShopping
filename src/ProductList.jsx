@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ProductList.css';
 import CartItem from './CartItem';
 import { useDispatch, useSelector } from 'react-redux';
-import { addItem } from './store/CartSlice'; // Ensure this path matches your file exactly
+import { addItem } from './store/cartslice'; // Ensure this path matches your file exactly
 
 function ProductList({ onHomeClick }) {
   const [showCart, setShowCart] = useState(false);
